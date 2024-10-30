@@ -1,0 +1,35 @@
+#dashboard_last_plugin_updates .no-display {
+  display: none;
+}
+
+#dashboard_last_plugin_updates .head {
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#dashboard_last_plugin_updates .head a p {
+  display: inline;
+}
+#dashboard_last_plugin_updates .plugins {
+  margin: auto;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+
+#dashboard_last_plugin_updates .not-found {
+  color: red;
+}
+#dashboard_last_plugin_updates .col1 {
+  float: left;
+}
+
+#dashboard_last_plugin_updates .col2 {
+  float: right;
+}
+
+#dashboard_last_plugin_updates .clear {
+  clear: both;
+}
